@@ -12,7 +12,7 @@ external_stylesheets=['https://codepen.io/amyoshino/pen/jzXypZ.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = 'Choropleth Map'
 
-path_to_file = "AllEffect_map.csv"
+path_to_file = 'AllEffect_map.csv'
 df = pd.read_csv(path_to_file)
 available_industries = df['sector'].unique()
 # available_industries = np.append("All industries", available_industries)
