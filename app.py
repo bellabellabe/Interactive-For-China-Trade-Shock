@@ -11,7 +11,7 @@ external_stylesheets=['https://codepen.io/amyoshino/pen/jzXypZ.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server=app.server
-app.title = 'Choropleth Map'
+app.title = 'Effects of China Trade Shock'
 
 path_to_file = 'AllEffect_map.csv'
 df = pd.read_csv(path_to_file)
