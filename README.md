@@ -1,3 +1,4 @@
-# test
+# This repository is linked with Heroku to deploy python dash
 
-This is to see if I can deploy dash into a webpage
+The main code is in the file app.py
+The dataset used is the file AllEffect_map.csv
